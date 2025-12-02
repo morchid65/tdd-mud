@@ -1,0 +1,29 @@
+{
+    "workbench.colorTheme": "OM Theme (Night Owl Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "files.autoSave": "afterDelay",
+    "redhat.telemetry.enabled": true,
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "keep",
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+    "github.copilot.enable": {},
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+
+    // <--- C'est ICI qu'il faut ajouter les références Java ! --->
+    "java.project.referencedLibraries": [
+        // Le chemin doit correspondre à l'endroit où vous avez mis le fichier hamcrest
+        "lib/hamcrest-2.2.jar",
+        // Le chemin doit correspondre à l'endroit où vous avez mis le fichier junit
+        "lib/junit-4.13.2.jar" 
+    ]
+}
