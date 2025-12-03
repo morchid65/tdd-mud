@@ -87,3 +87,58 @@ public class Box {
         return gson.fromJson(fr, Box.class);
     }
 }
+
+/*
+
+import org.junit.*;
+import static org.junit.Assert.*;
+public class TestBoxes {
+
+    @Test
+    public void testThingVolume() {
+        Thing t = new Thing(3);
+        assertEquals(3, t.volume());
+    }
+
+    @Test
+    public void testBoxCapacity() {
+        Box b = new Box();
+        b.setCapacity(5);
+        assertEquals(5, b.capacity());
+    }
+}
+
+    public void actionAdd(Thing t) throws Exception {
+        if (!open) {
+            throw new Exception("Boite fermee");
+        }
+        if (!hasRoomFor(t)) {
+            throw new Exception("Pas assez de place");
+        }
+        contents.add(t);
+        used += t.volume();
+    }
+
+    public Thing find(String name) throws Exception {
+        if (!open) {
+            throw new Exception("Boite fermee");
+        }
+        for (Thing t : contents) {
+            if (t.hasName(name)) {
+                return t;
+            }
+        }
+        throw new Exception("Objet non trouve");
+    }
+
+    public static Box fromJSON(String path) throws Exception {
+        // Implementation to read a Box from a JSON file
+        return new Box();
+    }
+
+    
+
+
+}
+
+*/

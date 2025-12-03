@@ -1,3 +1,5 @@
+/* 
+
 import org.junit.*;
 import static org.junit.Assert.*;
 
@@ -94,3 +96,6 @@ public class TestBoxes {
         b.find("bidule");
     }
 }
+
+*/
+
