@@ -1,0 +1,15 @@
+{
+    "open": true,
+    "capacity": 10,
+    "used": 4,
+    "contents": [
+        {
+            "volume": 3,
+            "name": "ordinateur"
+        },
+        {
+            "volume": 1,
+            "name": "souris"
+        }
+    ]
+    }
